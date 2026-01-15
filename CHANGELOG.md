@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0](https://github.com/stevearc/overseer.nvim/compare/v2.1.0...v2.2.0) (2026-01-15)
+
+
+### Features
+
+* support devenv tasks ([#447](https://github.com/stevearc/overseer.nvim/issues/447)) ([5828bdb](https://github.com/stevearc/overseer.nvim/commit/5828bdbd86677497613033c142f0a8624489216f))
+
 ## [2.1.0](https://github.com/stevearc/overseer.nvim/compare/v2.0.0...v2.1.0) (2026-01-11)
 
 
