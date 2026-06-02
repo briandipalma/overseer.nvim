@@ -119,12 +119,10 @@ return {
       end
 
       methods.on_reset = function()
-        if bufnr then
-          if vim.fn.bufexists(bufnr) == 1 and vim.api.nvim_buf_is_valid(bufnr) then
-            vim.api.nvim_buf_delete(bufnr, { force = true })
-          end
-          bufnr = nil
+        if bufnr and vim.api.nvim_buf_is_valid(bufnr) then
+          vim.api.nvim_buf_delete(bufnr, { force = true })
         end
+        bufnr = nil
       end
     end
 
